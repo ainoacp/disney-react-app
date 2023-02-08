@@ -1,0 +1,25 @@
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.copyright {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    padding: 10px 20px;
+}
+
+span {
+    padding: 10px;
+}

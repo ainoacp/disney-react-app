@@ -1,0 +1,55 @@
+.c-character-page{
+    height: 60vh;
+    width: 90vh;
+    display: contents;
+}
+
+.ch-main{
+    max-width: 80%;
+    height: 60%;
+    color: #1C3D9B;
+    margin: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.ch-img-section{
+    display: flex;
+    height: 30%;
+    flex-direction: column;
+    align-items: center;
+    img{
+        width: 150px;
+        height: 180px;
+        border: 2px solid white;
+    }
+    h4{
+        margin: 5px;
+        text-transform: uppercase;
+    }
+}
+
+.ch-info-section{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.ch-info-container{
+    width: 250px;
+    height: max-content;
+
+    h5{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    p{
+        font-size: 12px;
+        margin-top: 0;
+    }
+}
